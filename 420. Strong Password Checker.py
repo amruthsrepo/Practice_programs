@@ -24,8 +24,8 @@ class Solution:
             t = abs(replacement - steps)
             return t if t != 0 else t + (6 - inputLen)
         elif inputLen > 20:
-            t = abs(replacement - steps)
-            return t if steps == 0 else t + (inputLen - 20)
+            t = (inputLen - 20)
+            return t+steps if t > replacement else replacement if steps == 0 else replacement-steps+t
         elif steps == replacement == 0:
             return 0
         else:
