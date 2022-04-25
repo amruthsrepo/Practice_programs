@@ -1,3 +1,5 @@
 Project Euler/.venv
 Project Euler/.vscode/*/
 .DS_Store
+*/.vscode
+*/.venv
