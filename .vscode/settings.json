@@ -1,7 +1,10 @@
 {
-    "python.formatting.provider": "black",
-    "python.linting.pylintEnabled": true,
-    "python.linting.banditEnabled": false,
-    "python.linting.enabled": false,
-    "python.analysis.typeCheckingMode": "basic"
+  "python.formatting.provider": "none",
+  "python.linting.pylintEnabled": true,
+  "python.linting.banditEnabled": false,
+  "python.linting.enabled": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
