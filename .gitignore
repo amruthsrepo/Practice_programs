@@ -4,3 +4,4 @@ Project Euler/.vscode/*/
 */.vscode
 */.venv
 LeetCode/Testing/test.py
+*/*/test.py
