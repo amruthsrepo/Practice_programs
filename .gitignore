@@ -3,6 +3,5 @@ Project Euler/.vscode/*/
 .DS_Store
 */.vscode
 */.venv
-LeetCode/Testing/test.py
-*/*/test.py
-LeetCode/Testing/test.py
+Util/test.cpp
+Util/test.py
